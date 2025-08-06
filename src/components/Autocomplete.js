@@ -7,11 +7,12 @@ const modelos = Object.keys(pecasData);
 // --- MULTIPLICADORES EDITÁVEIS ---
 const MULTIPLICADOR_IMPOSTO = 1.35;
 const MULTIPLICADOR_DISPLAY_MONTADO = 1.5;
-const MULTIPLICADOR_OPEN_CELL = 1.9;
-const MULTIPLICADOR_PLACA_FONTE = 2;
-const MULTIPLICADOR_OUTROS = 3;
+const MULTIPLICADOR_OPEN_CELL = 1.85  ;
+const MULTIPLICADOR_PLACA_FONTE = 4;
+const MULTIPLICADOR_OUTROS = 6;
 const MULTIPLICADOR_PLACA_DE_CIRCUITO_IMPRESSO = 1;
-const MULTIPLICADOR_COMPONENTE_MECANICO = 3;
+const MULTIPLICADOR_COMPONENTE_MECANICO = 2.7;
+const MULTIPLICADOR_DESCONTO_01 = 0.90; // Desconto de 10%
 // ----------------------------------
 
 function Autocomplete() {
@@ -30,6 +31,7 @@ function Autocomplete() {
         basePrice: '0.00',
         taxAmount: '0.00',
         multiplierAmount: '0.00',
+        discountedValue: '0.00',
       };
     }
     
@@ -68,6 +70,7 @@ function Autocomplete() {
     }
 
     const finalValue = basePrice * totalMultiplier;
+    const discountedValue = finalValue * MULTIPLICADOR_DESCONTO_01;
     const taxAmount = basePrice * (MULTIPLICADOR_IMPOSTO - 1);
     const multiplierAmount = finalValue - basePrice - taxAmount;
 
@@ -76,6 +79,7 @@ function Autocomplete() {
       basePrice: basePrice.toFixed(2),
       taxAmount: taxAmount.toFixed(2),
       multiplierAmount: multiplierAmount.toFixed(2),
+      discountedValue: discountedValue.toFixed(2),
     };
   };
 
@@ -106,20 +110,18 @@ function Autocomplete() {
   };
   
   const handleCopyClick = (e, part) => {
-    // Agora copia o 'selectedModel' diretamente
     const codeToCopy = selectedModel;
     navigator.clipboard.writeText(codeToCopy);
     setCopiedCode(codeToCopy);
     setClickCount(prevCount => prevCount + 1);
 
-    if (clickCount >= 5) {
+    if (clickCount >= 4) { // Mudado para 4, que representa o 5º clique
       const prices = calculateFinalPrice(part);
       setDetailedPrice({ ...prices, model: selectedModel });
       setClickCount(0);
-
       setTimeout(() => {
         setDetailedPrice(null);
-      }, 5000);
+      }, 8000); // 8 segundos de exibição
     }
   };
 
@@ -158,7 +160,7 @@ function Autocomplete() {
               <span className="part-final-price">Valor final: R$ {calculateFinalPrice(selectedPartData).finalValue}</span>
             </div>
             <div className="part-code-container" style={{ textAlign: 'center' }}>
-              <button className="copy-button" onClick={(e) => handleCopyClick(e, selectedPartData)}>Detalhes</button>
+              <button className="copy-button" onClick={(e) => handleCopyClick(e, selectedPartData)}>Copiar</button>
             </div>
           </div>
         </div>
@@ -170,7 +172,8 @@ function Autocomplete() {
           <p>Valor Original: R$ {detailedPrice.basePrice}</p>
           <p>Valor do Imposto (135%): R$ {detailedPrice.taxAmount}</p>
           <p>Valor dos Multiplicadores: R$ {detailedPrice.multiplierAmount}</p>
-          <p>VALOR FINAL: R$ {detailedPrice.finalValue}</p>
+          <p>VALOR: R$ {detailedPrice.finalValue}</p>
+          <p>VALOR COM DESCONTO: R$ {detailedPrice.discountedValue}</p>
         </div>
       )}
     </div>
