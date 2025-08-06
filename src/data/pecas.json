@@ -1,16 +1,1018 @@
 {
-  "BN94-15313Y": {
-    "TIPO:": "PLACA PRINCIPAL",
-    "VALOR": "R$ 400"
+  "BN96-49589C": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 365"
   },
-
- "BN96-53825A": {
-    "TIPO:": "OPEN CELL",
+  "BN96-55108A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 640"
+  },
+  "CY-BT050HGCV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 654"
+  },
+  "BN07-01641A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 850"
+  },
+  "BN96-53825A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 660"
+  },
+  "BN94-18399Q": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 185"
+  },
+  "BN94-18054S": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 200"
+  },
+  "BN96-51685A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 615"
+  },
+  "CY-JN032AGXV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 300"
+  },
+  "DC66-00421B": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 40"
+  },
+  "DC31-00181B": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 70"
+  },
+  "BN44-01054E": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 75"
+  },
+  "CY-BD050HGNV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 760"
+  },
+  "BN94-17478A": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 165"
+  },
+  "BN94-18460J": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 195"
+  },
+  "BN96-52426B": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 660"
+  },
+  "DC93-00341C": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 455"
+  },
+  "DC97-17686B": {
+    "TIPO": "COMPONENTE MECÂNICO",
+    "VALOR": "R$ 330"
+  },
+  "BN94-15353Z": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 150"
+  },
+  "CY-BC043HGAV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 540"
+  },
+  "CY-BC065HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1225"
+  },
+  "BN59-01432B": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 55"
+  },
+  "BN59-01386E": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 55"
+  },
+  "CY-BD055HGXV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 740"
+  },
+  "CY-BD065HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1100"
+  },
+  "BN96-52452A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 550"
+  },
+  "BN95-06689B": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 55"
+  },
+  "DC97-17686F": {
+    "TIPO": "COMPONENTE MECÂNICO",
+    "VALOR": "R$ 330"
+  },
+  "BN44-00932N": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 80"
+  },
+  "DC64-01538A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 45"
+  },
+  "BN96-54308A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 750"
+  },
+  "CY-JN032AGNV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 290"
+  },
+  "BN94-15755T": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 160"
+  },
+  "CY-SC085FGCV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 2755"
+  },
+  "CY-BD050HGJV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 760"
+  },
+  "CY-BC050HGJV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 790"
+  },
+  "DC62-00233B": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 75"
+  },
+  "CY-SA060HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1075"
+  },
+  "BN44-00852F": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 70"
+  },
+  "CY-BT055HGCVC1": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 915"
+  },
+  "CY-BC065HGHV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1125"
+  },
+  "BN94-18342E": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 200"
+  },
+  "BN96-55508A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 210"
+  },
+  "BN94-15353X": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 180"
+  },
+  "CY-BT055HGLVJ1": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 780"
+  },
+  "BN96-52423B": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 550"
+  },
+  "CY-SC050HGAV41": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 900"
+  },
+  "BN96-50366A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 560"
+  },
+  "BN96-57475A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 650"
+  },
+  "DC92-02049A": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 410"
+  },
+  "CY-BD070HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1570"
+  },
+  "BN94-15755D": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 172"
+  },
+  "BN94-15755S": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 225"
+  },
+  "BN94-15755F": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 189"
+  },
+  "DC96-01703G": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 40"
+  },
+  "BN44-01054C": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 74"
+  },
+  "BN44-01054A": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 73"
+  },
+  "BN44-01054H": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 95"
+  },
+  "CY-BT070HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
     "VALOR": "R$ 1400"
   },
-
-  "CY-BC065HGSV11": {
-    "TIPO:": "PAINEL",
-    "VALOR": "R$ 2000"
+  "CY-SC065HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1020"
+  },
+  "CY-SB065HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1235"
+  },
+  "BN94-15754Q": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 153"
+  },
+  "BN96-53409A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 741"
+  },
+  "DC47-00016B": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 15"
+  },
+  "BN96-52426A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 1220"
+  },
+  "BN94-18145G": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 176"
+  },
+  "CY-SA050HGAV4G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 678"
+  },
+  "CY-SA050HGAV42": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 855"
+  },
+  "CY-BT065HGSV81": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1004"
+  },
+  "CY-BT065HGSV8G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1070"
+  },
+  "CY-SC043HGNV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 607"
+  },
+  "BN94-12432G": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 208"
+  },
+  "BN96-50279A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 709"
+  },
+  "BN94-17202S": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 223"
+  },
+  "BN94-17512A": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 561"
+  },
+  "BN94-17213D": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 378"
+  },
+  "DC92-01785A": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 60"
+  },
+  "CY-BT060HGSV31": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1073"
+  },
+  "CY-BT060HGSV3G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 891"
+  },
+  "CY-QD050HGAV41": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 920"
+  },
+  "BN94-18399F": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 215"
+  },
+  "CY-BD055HGXVC1": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 973"
+  },
+  "BN94-18057F": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 170"
+  },
+  "CY-SC050HGNV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 835"
+  },
+  "BN44-01053A": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 70"
+  },
+  "BN96-52433B": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 390"
+  },
+  "CY-QB055HGHV21": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 885"
+  },
+  "BN95-08224G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1761"
+  },
+  "CY-QB055HGHV2G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1095"
+  },
+  "BN95-06381A": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 3770"
+  },
+  "BN94-15904F": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 222"
+  },
+  "BN94-15652X": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 220"
+  },
+  "BN94-15754V": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 150"
+  },
+  "BN94-15652Z": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 220"
+  },
+  "BN94-15313Y": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 210"
+  },
+  "BN94-15380P": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 220"
+  },
+  "CY-BT058HGCV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 875"
+  },
+  "CY-BT058HGCV1G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 890"
+  },
+  "CY-BT065HGEV71": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1134"
+  },
+  "BN96-59503A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 820"
+  },
+  "CY-JN032AGLVT1": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 250"
+  },
+  "BN94-18380D": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 183"
+  },
+  "CY-QD055HGHV41": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1089"
+  },
+  "CY-QB055HGHV51": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 930"
+  },
+  "CY-QB055HGHV5G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1125"
+  },
+  "BN98-07421A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 8"
+  },
+  "BN98-00012X": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 6"
+  },
+  "BN96-52421A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 446"
+  },
+  "CY-BT055HGHVA1": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 723"
+  },
+  "BN96-45632Y": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 70"
+  },
+  "BN96-52423A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 628"
+  },
+  "CY-BT050HGNVC1": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 588"
+  },
+  "BN96-52509A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 708"
+  },
+  "CY-SC055HGXV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 907"
+  },
+  "BN94-12433J": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 200"
+  },
+  "BN94-12418T": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 180"
+  },
+  "BN95-09375B": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 270"
+  },
+  "CY-BD050HGHV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 760"
+  },
+  "DC92-02049K": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 568"
+  },
+  "BN44-01267A": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 67"
+  },
+  "CY-QB055HGLV61": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 850"
+  },
+  "CY-QB055HGLV6G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 855"
+  },
+  "CY-BC055HGCV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 860"
+  },
+  "BN94-17256W": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 179"
+  },
+  "DC62-00233K": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 73"
+  },
+  "BN44-01100J": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 97"
+  },
+  "CY-QA055FHHV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1233"
+  },
+  "BN94-12811S": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 193"
+  },
+  "DC97-14637G": {
+    "TIPO": "COMPONENTE MECÂNICO",
+    "VALOR": "R$ 40"
+  },
+  "CY-SC050HGAV12": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 850"
+  },
+  "BN95-07824A": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 638"
+  },
+  "BN94-18141Y": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 240"
+  },
+  "BN96-45716A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 490"
+  },
+  "BN94-10995L": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 147"
+  },
+  "DC92-02712D": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 367"
+  },
+  "BN94-18145Y": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 207"
+  },
+  "BN94-12695R": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 220"
+  },
+  "BN44-01055A": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 86"
+  },
+  "DC92-01789B": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 561"
+  },
+  "BN44-00992A": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 128"
+  },
+  "DC92-02048N": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 132"
+  },
+  "CY-JN043BGCV51": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 520"
+  },
+  "CY-JN043BGCV5G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 526"
+  },
+  "CY-JN043BGCV3G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 547"
+  },
+  "CY-JN043BGCV31": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 488"
+  },
+  "CY-JN043BGCV1G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 491"
+  },
+  "CY-BC055HGLV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 668"
+  },
+  "BN96-52508A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 370"
+  },
+  "CY-SA055HGXV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 834"
+  },
+  "CY-SA055HGXV1": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 845"
+  },
+  "CY-SB043HGEV1G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 605"
+  },
+  "BN95-06376C": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1052"
+  },
+  "BN44-00932B": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 71"
+  },
+  "BN96-58977A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 62"
+  },
+  "BN44-01055C": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 82"
+  },
+  "BN44-01152A": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 97"
+  },
+  "CY-BT060HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 974"
+  },
+  "CY-BT050HGPVZ1": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 647"
+  },
+  "CY-QA055FHHV2G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1715"
+  },
+  "BN94-15756G": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 199"
+  },
+  "BN94-15753W": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 206"
+  },
+  "CY-BC055HGXV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 987"
+  },
+  "CY-SB050HGNV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 720"
+  },
+  "CY-QD055HGHV51": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 859"
+  },
+  "CY-NN058HGNV1G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 956"
+  },
+  "DC64-03235B": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 145"
+  },
+  "CY-SC085FGAV81": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 2678"
+  },
+  "CY-QA055HGCV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1012"
+  },
+  "BN94-10826Q": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 183"
+  },
+  "CY-BT055HGLVJG": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 720"
+  },
+  "DC97-18841K": {
+    "TIPO": "COMPONENTE MECÂNICO",
+    "VALOR": "R$ 312"
+  },
+  "BN94-15346G": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 177"
+  },
+  "BN44-01109C": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 71"
+  },
+  "CY-BT055HGLV4G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1155"
+  },
+  "BN44-01056A": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 121"
+  },
+  "BN44-00932S": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 109"
+  },
+  "CY-SA065HGSV21": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1144"
+  },
+  "CY-SC065HGCV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1143"
+  },
+  "BN94-18399P": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 205"
+  },
+  "BN94-18399C": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 348"
+  },
+  "BN94-18460R": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 414"
+  },
+  "BN94-18460W": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 422"
+  },
+  "BN94-18460X": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 185"
+  },
+  "CY-JN043BGEV4G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 923"
+  },
+  "BN95-09913F": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 2543"
+  },
+  "BN44-01102C": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 114"
+  },
+  "BN44-00947G": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 117"
+  },
+  "BN96-52422B": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 651"
+  },
+  "DC93-00342C": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 480"
+  },
+  "DC93-00316A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 255"
+  },
+  "CY-QC055HGHV61": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 945"
+  },
+  "BN94-13275C": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 426"
+  },
+  "BN94-12802C": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 190"
+  },
+  "CY-NN050HGAV1G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1179"
+  },
+  "BN98-08958A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 37"
+  },
+  "BN59-01461A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 37"
+  },
+  "BN94-15904B": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 170"
+  },
+  "BN94-15341K": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 122"
+  },
+  "DC64-03312B": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 15"
+  },
+  "BN94-11899Y": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 125"
+  },
+  "DC92-02049G": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 447"
+  },
+  "BN94-15018Q": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 360"
+  },
+  "DC64-03235A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 150"
+  },
+  "CY-QD070HGSV31": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1049"
+  },
+  "DC97-14371K": {
+    "TIPO": "COMPONENTE MECÂNICO",
+    "VALOR": "R$ 382"
+  },
+  "BN94-15753L": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 167"
+  },
+  "DC97-20738A": {
+    "TIPO": "COMPONENTE MECÂNICO",
+    "VALOR": "R$ 204"
+  },
+  "BN94-15041A": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 141"
+  },
+  "DC64-03198A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 128"
+  },
+  "BN44-01111E": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 96"
+  },
+  "BN98-00080E": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 40"
+  },
+  "CY-JJ040BGNV9G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 404"
+  },
+  "BN94-18147U": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 240"
+  },
+  "CY-TC050RMCV61": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1642"
+  },
+  "BN94-17618B": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 326"
+  },
+  "BN94-16923E": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 207"
+  },
+  "BN44-00807F": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 60"
+  },
+  "CY-QC070HGSV71": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1683"
+  },
+  "DC93-00378D": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 462"
+  },
+  "BN94-18388F": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 278"
+  },
+  "BN44-01066B": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 142"
+  },
+  "DC32-00004C": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 20"
+  },
+  "BN94-18356C": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 121"
+  },
+  "BN95-08410E": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 3175"
+  },
+  "BN94-13252U": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 128"
+  },
+  "CY-BC050HGHV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 772"
+  },
+  "CY-SC070HGSV31": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1331"
+  },
+  "CY-SC043HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 568"
+  },
+  "CY-BC058HGCV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1010"
+  },
+  "DC93-00139A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 70"
+  },
+  "BN95-09913D": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1848"
+  },
+  "DC62-00233C": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 70"
+  },
+  "CY-BT050HGAV1G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1480"
+  },
+  "BN94-18358Y": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 160"
+  },
+  "BN44-00807H": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 89"
+  },
+  "DC92-02514C": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 470"
+  },
+  "BN94-18057J": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 260"
+  },
+  "BN94-15914H": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 190"
+  },
+  "BN44-01113B": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 170"
+  },
+  "DC97-20051B": {
+    "TIPO": "COMPONENTE MECÂNICO",
+    "VALOR": "R$ 65"
+  },
+  "DC97-22156T": {
+    "TIPO": "COMPONENTE MECÂNICO",
+    "VALOR": "R$ 123"
+  },
+  "CY-BT050HGNVE1": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 747"
+  },
+  "DC93-00540A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 65"
+  },
+  "CY-QB065HGLV21": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1350"
+  },
+  "CY-RT055FGLV1G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1226"
+  },
+  "CY-QA065FGHV7G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1195"
+  },
+  "CY-QB050HGCV5G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 766"
+  },
+  "BN95-10947D": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 2771"
+  },
+  "DC92-01768E": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 527"
+  },
+  "BN44-00932H": {
+    "TIPO": "PLACA FONTE",
+    "VALOR": "R$ 89"
+  },
+  "CY-SC050HGCV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 766"
+  },
+  "DC97-21945D": {
+    "TIPO": "COMPONENTE MECÂNICO",
+    "VALOR": "R$ 91"
+  },
+  "CY-SB055HGAV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 786"
+  },
+  "BN95-06706A": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1592"
   }
 }
