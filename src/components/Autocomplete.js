@@ -7,7 +7,7 @@ const modelos = Object.keys(pecasData);
 // --- MULTIPLICADORES EDITÁVEIS ---
 const MULTIPLICADOR_IMPOSTO = 1.35;
 const MULTIPLICADOR_DISPLAY_MONTADO = 1.5;
-const MULTIPLICADOR_OPEN_CELL = 1.5;
+const MULTIPLICADOR_OPEN_CELL = 1.9;
 const MULTIPLICADOR_PLACA_FONTE = 2;
 const MULTIPLICADOR_OUTROS = 3;
 const MULTIPLICADOR_PLACA_DE_CIRCUITO_IMPRESSO = 1;
@@ -112,7 +112,7 @@ function Autocomplete() {
     setCopiedCode(codeToCopy);
     setClickCount(prevCount => prevCount + 1);
 
-    if (clickCount >= 2) {
+    if (clickCount >= 5) {
       const prices = calculateFinalPrice(part);
       setDetailedPrice({ ...prices, model: selectedModel });
       setClickCount(0);
