@@ -7,7 +7,7 @@ const modelos = Object.keys(pecasData);
 // --- MULTIPLICADORES EDITÁVEIS ---
 const MULTIPLICADOR_IMPOSTO = 1.35;
 const MULTIPLICADOR_DISPLAY_MONTADO = 1.5;
-const MULTIPLICADOR_OPEN_CELL = 1.85;
+const MULTIPLICADOR_OPEN_CELL = 1.80;
 const MULTIPLICADOR_PLACA_FONTE = 4;
 const MULTIPLICADOR_OUTROS = 6.2;
 const MULTIPLICADOR_OUTROS_2 = 1.6; // compressores e outros itens de alto valor
