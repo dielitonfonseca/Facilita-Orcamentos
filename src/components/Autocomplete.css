@@ -169,3 +169,22 @@
 .suggestions-list::-webkit-scrollbar-thumb:hover {
   background-color: #777; /* Cor do polegar ao passar o mouse */
 }
+
+.part-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  /* Adiciona espaçamento entre os itens */
+  gap: 15px; 
+}
+
+.part-code-container {
+  display: flex;
+  /* Centraliza o conteúdo horizontalmente */
+  justify-content: center;
+  /* Centraliza o conteúdo verticalmente */
+  align-items: center; 
+}

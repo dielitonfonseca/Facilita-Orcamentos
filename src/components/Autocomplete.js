@@ -10,7 +10,7 @@ const MULTIPLICADOR_DISPLAY_MONTADO = 1.5;
 const MULTIPLICADOR_OPEN_CELL = 1.85;
 const MULTIPLICADOR_PLACA_FONTE = 4;
 const MULTIPLICADOR_OUTROS = 6.2;
-const MULTIPLICADOR_OUTROS_2 = 1.6; //compressores e outros itens de alto valor
+const MULTIPLICADOR_OUTROS_2 = 1.6; // compressores e outros itens de alto valor
 const MULTIPLICADOR_PLACA_DE_CIRCUITO_IMPRESSO = 1;
 const MULTIPLICADOR_COMPONENTE_MECANICO = 2.7;
 const MULTIPLICADOR_DESCONTO_01 = 0.90; // Desconto de 10%
@@ -26,7 +26,6 @@ function Autocomplete() {
   const [detailedPrice, setDetailedPrice] = useState(null);
 
   const calculateFinalPrice = (part) => {
-    // Adiciona verificação para garantir que 'part' e 'part.VALOR' existam
     if (!part || !part.VALOR) {
       return {
         finalValue: '0.00',
@@ -40,36 +39,28 @@ function Autocomplete() {
     let basePrice = parseFloat(part.VALOR.replace('R$ ', '').replace(',', '.'));
     
     let totalMultiplier = MULTIPLICADOR_IMPOSTO;
-    let extraMultiplierValue = 0;
 
     switch (part.TIPO) {
       case 'DISPLAY MONTADO':
         totalMultiplier *= MULTIPLICADOR_DISPLAY_MONTADO;
-        extraMultiplierValue = basePrice * (MULTIPLICADOR_DISPLAY_MONTADO - 1);
         break;
       case 'OPEN CELL':
         totalMultiplier *= MULTIPLICADOR_OPEN_CELL;
-        extraMultiplierValue = basePrice * (MULTIPLICADOR_OPEN_CELL - 1);
         break;
       case 'PLACA FONTE':
         totalMultiplier *= MULTIPLICADOR_PLACA_FONTE;
-        extraMultiplierValue = basePrice * (MULTIPLICADOR_PLACA_FONTE - 1);
         break;
       case 'OUTROS':
         totalMultiplier *= MULTIPLICADOR_OUTROS;
-        extraMultiplierValue = basePrice * (MULTIPLICADOR_OUTROS - 1);
         break;
-        case 'OUTROS_2':
+      case 'OUTROS_2':
         totalMultiplier *= MULTIPLICADOR_OUTROS_2;
-        extraMultiplierValue = basePrice * (MULTIPLICADOR_OUTROS_2 - 1);
         break;
       case 'PLACA DE CIRCUITO IMPRESSO':
         totalMultiplier *= MULTIPLICADOR_PLACA_DE_CIRCUITO_IMPRESSO;
-        extraMultiplierValue = basePrice * (MULTIPLICADOR_PLACA_DE_CIRCUITO_IMPRESSO - 1);
         break;
       case 'COMPONENTE MECÂNICO':
         totalMultiplier *= MULTIPLICADOR_COMPONENTE_MECANICO;
-        extraMultiplierValue = basePrice * (MULTIPLICADOR_COMPONENTE_MECANICO - 1);
         break;
       default:
         break;
@@ -77,7 +68,6 @@ function Autocomplete() {
 
     let finalValue = basePrice * totalMultiplier;
     
-    // Aplica a regra do valor mínimo
     if (finalValue < VALOR_MINIMO) {
       finalValue = VALOR_MINIMO;
     }
@@ -127,13 +117,13 @@ function Autocomplete() {
     setCopiedCode(codeToCopy);
     setClickCount(prevCount => prevCount + 1);
 
-    if (clickCount >= 4) { // Mudado para 4, que representa o 5º clique
+    if (clickCount >= 4) {
       const prices = calculateFinalPrice(part);
       setDetailedPrice({ ...prices, model: selectedModel });
       setClickCount(0);
       setTimeout(() => {
         setDetailedPrice(null);
-      }, 8000); // 8 segundos de exibição
+      }, 8000);
     }
   };
 
@@ -167,12 +157,12 @@ function Autocomplete() {
         <div className="parts-display">
           <h2>Detalhes da Peça: <strong>{selectedModel}</strong></h2>
           <div className="parts-list">
-            <div className="part-info" style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
+            <div className="part-info">
               <span className="part-type">Tipo: {selectedPartData.TIPO}</span>
-              <span className="part-final-price">Valor final: R$ {calculateFinalPrice(selectedPartData).finalValue}</span>
+              <span className="part-final-price">Valor: R$ {calculateFinalPrice(selectedPartData).finalValue}</span>
             </div>
             <div className="part-code-container" style={{ textAlign: 'center' }}>
-              <button className="copy-button" onClick={(e) => handleCopyClick(e, selectedPartData)}>Copiar</button>
+              <button className="copy-button" onClick={(e) => handleCopyClick(e, selectedPartData)}>Detalhes</button>
             </div>
           </div>
         </div>
