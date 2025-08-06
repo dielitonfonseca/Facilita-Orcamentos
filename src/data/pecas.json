@@ -1014,5 +1014,121 @@
   "BN95-06706A": {
     "TIPO": "DISPLAY MONTADO",
     "VALOR": "R$ 1592"
+  },
+  "BN94-12831L": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 258"
+  },
+  "BN94-12424W": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 209"
+  },
+  "BN94-15914H": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 190"
+  },
+  "BN94-17554K": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 226"
+  },
+  "BN94-18161A": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 173"
+  },
+  "BN95-07822A": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 236"
+  },
+  "BN95-09131A": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 2950"
+  },
+  "BN96-53409A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 741"
+  },
+  "BN96-57475A": {
+    "TIPO": "OPEN CELL",
+    "VALOR": "R$ 644"
+  },
+  "BN98-05978K": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 40"
+  },
+  "CY-BC070HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1390"
+  },
+  "CY-BT065HGEV41": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1718"
+  },
+  "CY-BT065HGSV61": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1091"
+  },
+  "CY-BD075HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1710"
+  },
+  "CY-NN058HGPV1G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1158"
+  },
+  "CY-SA050HGAV4G": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 678"
+  },
+  "CY-SA060HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1078"
+  },
+  "CY-SB065HGSV11": {
+    "TIPO": "DISPLAY MONTADO",
+    "VALOR": "R$ 1231"
+  },
+  "DC34-00025D": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 52"
+  },
+  "DA94-08413S": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 235"
+  },
+  "DA97-16152A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 85"
+  },
+  "DB31-00694A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 120"
+  },
+  "DB92-04837T": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 340"
+  },
+  "DB96-26177A": {
+    "TIPO": "OUTROS",
+    "VALOR": "R$ 30"
+  },
+  "DC92-02049M": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 420"
+  },
+  "DC92-02665A": {
+    "TIPO": "PLACA DE CIRCUITO IMPRESSO",
+    "VALOR": "R$ 194"
+  },
+  "DC97-21946F": {
+    "TIPO": "COMPONENTE MECÂNICO",
+    "VALOR": "R$ 418"
+  },
+  "MSV4A1AL1R/TT3": {
+    "TIPO": "OUTROS_2",
+    "VALOR": "R$ 383"
+  },
+  "NI34T9101ADAKC": {
+    "TIPO": "OUTROS_2",
+    "VALOR": "R$ 764"
   }
 }

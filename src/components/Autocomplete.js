@@ -7,12 +7,14 @@ const modelos = Object.keys(pecasData);
 // --- MULTIPLICADORES EDITÁVEIS ---
 const MULTIPLICADOR_IMPOSTO = 1.35;
 const MULTIPLICADOR_DISPLAY_MONTADO = 1.5;
-const MULTIPLICADOR_OPEN_CELL = 1.85  ;
+const MULTIPLICADOR_OPEN_CELL = 1.85;
 const MULTIPLICADOR_PLACA_FONTE = 4;
 const MULTIPLICADOR_OUTROS = 6.2;
+const MULTIPLICADOR_OUTROS_2 = 1.6; //compressores e outros itens de alto valor
 const MULTIPLICADOR_PLACA_DE_CIRCUITO_IMPRESSO = 1;
 const MULTIPLICADOR_COMPONENTE_MECANICO = 2.7;
 const MULTIPLICADOR_DESCONTO_01 = 0.90; // Desconto de 10%
+const VALOR_MINIMO = 250; // Caso o valor seja menor, é automaticamente corrijido
 // ----------------------------------
 
 function Autocomplete() {
@@ -57,6 +59,10 @@ function Autocomplete() {
         totalMultiplier *= MULTIPLICADOR_OUTROS;
         extraMultiplierValue = basePrice * (MULTIPLICADOR_OUTROS - 1);
         break;
+        case 'OUTROS_2':
+        totalMultiplier *= MULTIPLICADOR_OUTROS_2;
+        extraMultiplierValue = basePrice * (MULTIPLICADOR_OUTROS_2 - 1);
+        break;
       case 'PLACA DE CIRCUITO IMPRESSO':
         totalMultiplier *= MULTIPLICADOR_PLACA_DE_CIRCUITO_IMPRESSO;
         extraMultiplierValue = basePrice * (MULTIPLICADOR_PLACA_DE_CIRCUITO_IMPRESSO - 1);
@@ -69,7 +75,13 @@ function Autocomplete() {
         break;
     }
 
-    const finalValue = basePrice * totalMultiplier;
+    let finalValue = basePrice * totalMultiplier;
+    
+    // Aplica a regra do valor mínimo
+    if (finalValue < VALOR_MINIMO) {
+      finalValue = VALOR_MINIMO;
+    }
+
     const discountedValue = finalValue * MULTIPLICADOR_DESCONTO_01;
     const taxAmount = basePrice * (MULTIPLICADOR_IMPOSTO - 1);
     const multiplierAmount = finalValue - basePrice - taxAmount;
