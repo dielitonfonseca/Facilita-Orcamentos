@@ -13,6 +13,7 @@ const MULTIPLICADOR_OUTROS = 6.2;
 const MULTIPLICADOR_OUTROS_2 = 1.6; // compressores e outros itens de alto valor
 const MULTIPLICADOR_PLACA_DE_CIRCUITO_IMPRESSO = 1;
 const MULTIPLICADOR_COMPONENTE_MECANICO = 2.7;
+const MULTIPLICADOR_COMPONENTE_MECANICO_2 = 1.5; // VALOR MAIS ALTO EX: DUTO
 const MULTIPLICADOR_DESCONTO_01 = 0.90; // Desconto de 10%
 const VALOR_MINIMO = 250; // Caso o valor seja menor, é automaticamente corrijido
 // ----------------------------------
@@ -61,6 +62,10 @@ function Autocomplete() {
         break;
       case 'COMPONENTE MECÂNICO':
         totalMultiplier *= MULTIPLICADOR_COMPONENTE_MECANICO;
+        break;
+       
+      case 'COMPONENTE MECÂNICO 2':
+        totalMultiplier *= MULTIPLICADOR_COMPONENTE_MECANICO_2;
         break;
       default:
         break;
